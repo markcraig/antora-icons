@@ -1,0 +1,26 @@
+= Some icons
+
+== Fontawesome
+
+The aim here is to get an empty check box.
+
+In HTML, the following icon renders as a solid square.
+It seems the Fontawesome solid icons are selected somehow.
+
+In PDF, it renders as a "regular" outline square due to `icon-set: far` in the site settings.
+That setting seems to have no effect in HTML.
+
+++icon:square[]++: icon:square[]
+
+== Material
+
+// FixMe
+TODO
+
+== UTF-8
+
+In HTML, the following character renders as an outline square with rounded edges.
+
+In PDF, it renders as an outline rectangle, which means that it's not recognized as a character in the font used.
+
+`\&#x25A2;`: &#x25A2;
